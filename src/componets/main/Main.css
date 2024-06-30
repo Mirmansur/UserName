@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background-color: black !important;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px !important;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.Main {
+  display: flex;
+}
+.mains {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  border-radius: 19px;
+  padding: 50px 0;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  color: rgb(99, 183, 99);
+  font-size: 3.4em;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+.icone {
+  color: rgb(99, 183, 99);
+  font-size: 1.9em;
+  margin-top: -40px;
+  margin-right: 40px;
+}
+.lina {
+  border: 3px solid rgb(99 102 241);
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.word {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.word h4 {
+  color: rgb(99, 183, 99);
+  font-size: 1.8em;
+}
+.word p {
+  color: rgb(99, 183, 99);
+  font-size: 1.8em;
+}
+.btnnn {
+  display: flex;
+  width: 100%;
+  justify-content: space-around !important;
+
+  align-items: center;
+}
+.btnnn button {
+  padding: 10px 0;
+  width: 15%;
+  border-radius: 18px;
+  background-color: rgb(51 65 85);
+  color: #ffffff40;
+  border: 2px solid #ffffff40;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.btnnn button:hover {
+  background-color: rgb(34, 111, 219);
+  color: #ffffff;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+  border-radius: 19px;
+  padding: 20px 0;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  gap: 20px;
+  background-color: rgb(132 204 22);
+  border-radius: 12px;
+  width: 80%;
+}
+.boxs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  border-radius: 19px;
+  padding: 20px 0;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+  background-color: rgb(132 204 22);
+  border-radius: 10px;
+  width: 80%;
+}
+.photos {
+  width: 40%;
+  padding: 10px 10px;
+}
+.wordss {
+  padding: 0 10px;
+  color: #716666;
+}
+.loading {
+  display: flex;
+  margin: 0 auto;
+  font-size: 3.4em;
+  color: #ffffff;
+}
